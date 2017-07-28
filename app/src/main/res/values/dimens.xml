@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ripple_radius">32dp</dimen>
+    <dimen name="ripple_stroke_width">2dp</dimen>
+    <dimen name="image_center">100dp</dimen>
+</resources>

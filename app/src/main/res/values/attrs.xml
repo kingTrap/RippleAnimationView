@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RippleAnimationView">
+        <attr name="ripple_anim_type" format="enum">
+            <enum name="fillRipple" value="0"></enum>
+            <enum name="strokeRipple" value="1"></enum>
+        </attr>
+        <attr name="ripple_anim_color" format="color"></attr>
+        <attr name="ripple_anim_count" format="integer"></attr>
+        <attr name="ripple_anim_radius" format="dimension"></attr>
+        <attr name="ripple_anim_stroke_width" format="dimension"></attr>
+        <attr name="ripple_anim_duration" format="integer"></attr>
+        <attr name="ripple_anim_scale" format="float"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hxj.app.MainActivity">
+
+    <com.hxj.app.RippleAnimationView
+        android:id="@+id/ripple_anim_view"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:ripple_anim_count="5"
+        app:ripple_anim_duration="2500"
+        app:ripple_anim_radius="@dimen/ripple_radius"
+        app:ripple_anim_stroke_width="@dimen/ripple_stroke_width"
+        app:ripple_anim_color="@color/colorRed"
+        app:ripple_anim_type="fillRipple"
+        app:ripple_anim_scale="6">
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="@dimen/image_center"
+            android:layout_height="@dimen/image_center"
+            android:layout_centerInParent="true"
+            android:onClick="onClick"
+            android:background="@drawable/center"/>
+    </com.hxj.app.RippleAnimationView>
+</android.support.constraint.ConstraintLayout>
